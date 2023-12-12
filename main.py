@@ -6,6 +6,8 @@ import time
 import mysql.connector
 import hashlib
 
+#This is a weather and notification program.
+
 db = mysql.connector.connect(
     host="localhost",
     port=3306,
